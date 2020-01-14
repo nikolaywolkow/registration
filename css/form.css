@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+u{
+  color: #000000;
+}
+.invisible
+{
+  display: none;
+}
+.visible
+{
+  position: relative;
+  display: block;
+  min-width: 400px;
+}
+.load_img
+{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.form_info
+{
+  width: 100%;
+  min-height: 45px;
+  color: #c01600;
+  font-weight: bold;
+  line-height: 1.4em;
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+}
+
+
+.loginform {
+  background: #e1ddf3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 463px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding: 17px 17px 17px 0;
+  box-shadow: 0px 0px 48px #1a1342;
+  border: 2px solid #a79f9f;
+}
+.editform {
+  max-width: 463px;
+  width: 100%;
+  padding: 17px 17px 17px 0;
+}
+
+
+.loginform .title {
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #47424a;
+  margin-bottom: 23px;
+}
+.instruction {
+  font-size: 15px;
+  text-align: center;
+  color: #29262b;
+  margin-bottom: 15px;
+  background-color: #fffb009d;
+  border-radius: 3px;
+}
+
+.input-form{
+  position: relative;
+}
+
+.input-form .input {
+  width: 100%;
+  padding: 15px;
+  padding-left: 75px;
+  font-size: 18px;
+  text-align: center;
+  border: transparent;
+  color: #f3efef;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #3a343e;
+  box-shadow: inset 0 0 5px #1d1933;
+  outline: none;
+}
+
+.input-form:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: #de4e3e;
+}
+ 
+.input-form:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 68px;
+  width: 2px;
+  height: 79%;
+  background: #38323e;
+}
+
+.btn {
+  width: 200px;
+  background: hsl(4, 69%, 55%);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: 0px 2px 2px #1c1738;
+  color: #eeedef;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.btn:disabled
+{
+  opacity: 50%;
+}
+
+.center
+{
+  margin: 0 auto;
+  width: 200px;
+}
+.btn a{
+  color: #eeedef;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.input-form .fas{
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  font-size: 19px;
+  color: #fff;
+}
+
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #eeedef;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #eeedef;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #dddddd;
+}
